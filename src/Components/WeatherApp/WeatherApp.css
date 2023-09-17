@@ -92,7 +92,6 @@
 @media (max-width:390px){
 
     .container{
-        
         height: 70%;
         width: 80%;
     }
@@ -152,6 +151,4 @@
         font-size: 15px;
         font-weight: 400;
     }
-    
-    
 }
