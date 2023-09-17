@@ -88,3 +88,70 @@
 .icon{
     margin-top: 10px;
 }
+
+@media (max-width:390px){
+
+    .container{
+        
+        height: 70%;
+        width: 80%;
+    }
+    
+    .top-bar input{
+        display: flex;
+        width: 100px;
+        height: 50px;
+        background: #ebfffc;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        padding-left: 40px;
+        color: #626262;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    
+    .search-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: #ebfffc;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    .weather-temp{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .icon{
+        
+        width: 20px;
+        height: 20px;
+    }
+
+    .weather-location{
+        
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .data{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .text{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    
+}
